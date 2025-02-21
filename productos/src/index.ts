@@ -1,5 +1,6 @@
 import express from 'express'
 //mandar a llamar al principal o al controlador
+// otra prueba
 const app = express()
 app.use(express.json())
 const PORT=3001
