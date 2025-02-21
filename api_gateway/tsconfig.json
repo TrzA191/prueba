@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+  "target": "es2016",                                 
+    "module": "commonjs",                              
+    "outDir": "./build",     // es para index.js                             
+    "esModuleInterop": true,                           
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+   "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+   "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
+    "exactOptionalPropertyTypes": true,               /* Interpret optional property types as written, rather than adding 'undefined'. */
+    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noFallthroughCasesInSwitch": true,             
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
